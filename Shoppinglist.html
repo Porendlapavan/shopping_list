@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="shopping.css">
+    <title>Shopping List</title>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-top">
+                <h1>Pavan's Shopping List</h1>
+                <p>My Shopping List</p>
+                <form id="search-item">
+                    <input type="text" placeholder="Search for items..." name="query" />
+                    <div id="check-box">
+                        <label for="hide">Hide List</label>
+                        <input type="checkbox" id="hide">
+                    </div>
+                </form>
+            </div>
+        </header>
+        <form id="add-item">
+            <input type="text" placeholder="Add item to list here.." /><button>
+                add
+            </button>
+        </form>
+        <div id="grocery-list">
+            <h2>Items to Buy ?</h2>
+            <ul>
+                <li>
+                    <span class="item">Milk</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="item">Pen</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="item">Pencil</span>
+                    <span class="delete">Delete</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="shopping.js"></script>
+</body>
+
+</html>
